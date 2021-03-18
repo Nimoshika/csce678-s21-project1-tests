@@ -12,9 +12,9 @@ from google.cloud import storage
 class AWS_S3(cloud_storage):
     def __init__(self):
         # TODO: Fill in the AWS access key ID
-        self.access_key_id = "AKIAZ3WFZEEF2ARUKYJL"
+        self.access_key_id = ""
         # TODO: Fill in the AWS access secret key
-        self.access_secret_key = "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"
+        self.access_secret_key = ""
         # TODO: Fill in the bucket name
         self.bucket_name = "csce678-s21-p1-"
          # Load client using access id and secret key
@@ -71,9 +71,9 @@ class AWS_S3(cloud_storage):
 class Azure_Blob_Storage(cloud_storage):
     def __init__(self):
         # TODO: Fill in the Azure key
-        self.key = "u04DPr/UGGADYcl27vrXG3lAZ7cMP7LC+4Y3NKuR3nL8jLkp0xwG9NRzfCtDHG2nn4xX4adldrHfFmhRtT3afA=="
+        self.key = ""
         # TODO: Fill in the Azure connection string
-        self.conn_str = "DefaultEndpointsProtocol=https;AccountName=csce678s21;AccountKey=u04DPr/UGGADYcl27vrXG3lAZ7cMP7LC+4Y3NKuR3nL8jLkp0xwG9NRzfCtDHG2nn4xX4adldrHfFmhRtT3afA==;EndpointSuffix=core.windows.net"
+        self.conn_str = ""
         # TODO: Fill in the account name
         self.account_name = "csce678s21"
         # TODO: Fill in the container name
